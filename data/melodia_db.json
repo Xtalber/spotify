@@ -1,0 +1,642 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "username": "admin",
+      "email": "admin@melodia.ai",
+      "passwordHash": "$2a$10$fWJ00kL7Y/27mF48YhWbQeF00Rymz/eEunN2y6YidW1Fm78K5K9Tq",
+      "role": "admin",
+      "createdAt": "2026-07-14T06:48:52.592Z"
+    },
+    {
+      "id": "u_zee9hm85y",
+      "username": "Aditya",
+      "email": "adityasharmaa7568@gmail.com",
+      "passwordHash": "$2b$10$3cHEPXJuA4higrOs2lPgButVThV64UTssagAY8o2mlpK.0Nh32ok2",
+      "role": "user",
+      "createdAt": "2026-07-14T07:00:01.427Z",
+      "avatarUrl": "/uploads/avatar_u_zee9hm85y_1784014322385.png",
+      "bio": "",
+      "favoriteGenres": []
+    }
+  ],
+  "songs": [
+    {
+      "id": "s1",
+      "title": "Sunset Grid",
+      "artist": "Neon Wanderer",
+      "album": "Retro Drive",
+      "genre": "Synthwave",
+      "mood": "Energetic",
+      "duration": 372,
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "coverUrl": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=500&h=500&fit=crop&q=80",
+      "coverImage": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=500&h=500&fit=crop&q=80",
+      "plays": 24513,
+      "likes": 1250,
+      "energy": 9,
+      "tempo": 8,
+      "acousticness": 1,
+      "createdAt": "2026-07-14T06:48:52.588Z"
+    },
+    {
+      "id": "s2",
+      "title": "Midnight Arcade",
+      "artist": "Neon Wanderer",
+      "album": "Retro Drive",
+      "genre": "Synthwave",
+      "mood": "Dark Synth",
+      "duration": 424,
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+      "coverUrl": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=300&auto=format&fit=crop&q=80",
+      "plays": 18418,
+      "likes": 920,
+      "energy": 8,
+      "tempo": 7,
+      "acousticness": 2,
+      "createdAt": "2026-07-14T06:48:52.589Z"
+    },
+    {
+      "id": "s3",
+      "title": "Warm Brew",
+      "artist": "Coffee & Rain",
+      "album": "Cafe Sessions",
+      "genre": "Lo-Fi Chill",
+      "mood": "Relaxed",
+      "duration": 302,
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+      "coverUrl": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=300&auto=format&fit=crop&q=80",
+      "plays": 52104,
+      "likes": 4121,
+      "energy": 3,
+      "tempo": 4,
+      "acousticness": 8,
+      "createdAt": "2026-07-14T06:48:52.589Z"
+    },
+    {
+      "id": "s4",
+      "title": "Raindrops on Vinyl",
+      "artist": "Coffee & Rain",
+      "album": "Cafe Sessions",
+      "genre": "Lo-Fi Chill",
+      "mood": "Melancholic",
+      "duration": 502,
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+      "coverUrl": "https://images.unsplash.com/photo-1486556396467-d83d2b23514b?w=300&auto=format&fit=crop&q=80",
+      "plays": 43206,
+      "likes": 3410,
+      "energy": 2,
+      "tempo": 3,
+      "acousticness": 9,
+      "createdAt": "2026-07-14T06:48:52.589Z"
+    },
+    {
+      "id": "s5",
+      "title": "Timber Cabin",
+      "artist": "Elena Rivers",
+      "album": "Folk Tales",
+      "genre": "Acoustic / Folk",
+      "mood": "Cozy",
+      "duration": 285,
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3",
+      "coverUrl": "https://images.unsplash.com/photo-1449034446853-66c86144b0ad?w=300&auto=format&fit=crop&q=80",
+      "plays": 12020,
+      "likes": 851,
+      "energy": 4,
+      "tempo": 5,
+      "acousticness": 10,
+      "createdAt": "2026-07-14T06:48:52.589Z"
+    }
+  ],
+  "playlists": [
+    {
+      "id": "p_ai_b2s2bv2x4",
+      "name": "AI Curated: Energetic Resonance",
+      "description": "This bespoke set elegantly fuses high-octane synthwave energy with the cozy, tactile warmth of analog nostalgia. As neon pulses transition into the rain-slicked comfort of crackling vinyl and rustic timber, you’re left with a rich, cinematic atmosphere designed for late-night decompression.",
+      "userId": "u_zee9hm85y",
+      "songIds": [
+        "s2",
+        "s5",
+        "s3",
+        "s4"
+      ],
+      "coverUrl": "https://images.unsplash.com/photo-1614149162883-504ce4d13909?w=300&auto=format&fit=crop&q=80",
+      "isPublic": true,
+      "isAISmart": true,
+      "createdAt": "2026-07-14T07:00:39.624Z"
+    },
+    {
+      "id": "p_qjgs3liyu",
+      "name": "aditya",
+      "description": "Created on the fly.",
+      "userId": "u_zee9hm85y",
+      "songIds": [
+        "s3",
+        "s1"
+      ],
+      "coverUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=300&auto=format&fit=crop&q=80",
+      "isPublic": true,
+      "createdAt": "2026-07-14T07:49:00.402Z"
+    }
+  ],
+  "histories": [
+    {
+      "id": "h_ulbo7vc31",
+      "userId": "u_zee9hm85y",
+      "songId": "s1",
+      "playedAt": "2026-07-14T07:00:08.806Z"
+    },
+    {
+      "id": "h_jjqbs6oe4",
+      "userId": "u_zee9hm85y",
+      "songId": "s1",
+      "playedAt": "2026-07-14T07:00:08.873Z"
+    },
+    {
+      "id": "h_hi7i8jdke",
+      "userId": "u_zee9hm85y",
+      "songId": "s2",
+      "playedAt": "2026-07-14T07:01:26.330Z"
+    },
+    {
+      "id": "h_3nwn37vvp",
+      "userId": "u_zee9hm85y",
+      "songId": "s2",
+      "playedAt": "2026-07-14T07:01:26.333Z"
+    },
+    {
+      "id": "h_7sa3jcwbn",
+      "userId": "u_zee9hm85y",
+      "songId": "s5",
+      "playedAt": "2026-07-14T07:12:29.589Z"
+    },
+    {
+      "id": "h_eoo6b5wn5",
+      "userId": "u_zee9hm85y",
+      "songId": "s5",
+      "playedAt": "2026-07-14T07:12:29.598Z"
+    },
+    {
+      "id": "h_xsy0yuqr5",
+      "userId": "u_zee9hm85y",
+      "songId": "s2",
+      "playedAt": "2026-07-14T07:18:39.822Z"
+    },
+    {
+      "id": "h_h3kj8p90g",
+      "userId": "u_zee9hm85y",
+      "songId": "s2",
+      "playedAt": "2026-07-14T07:18:39.875Z"
+    },
+    {
+      "id": "h_uq7qv7mtl",
+      "userId": "u_zee9hm85y",
+      "songId": "s2",
+      "playedAt": "2026-07-14T07:28:24.307Z"
+    },
+    {
+      "id": "h_rzagfm08j",
+      "userId": "u_zee9hm85y",
+      "songId": "s2",
+      "playedAt": "2026-07-14T07:28:25.281Z"
+    },
+    {
+      "id": "h_k0ma8o5y5",
+      "userId": "u_zee9hm85y",
+      "songId": "s5",
+      "playedAt": "2026-07-14T07:31:34.845Z"
+    },
+    {
+      "id": "h_pk2a2pmdq",
+      "userId": "u_zee9hm85y",
+      "songId": "s5",
+      "playedAt": "2026-07-14T07:31:34.848Z"
+    },
+    {
+      "id": "h_vvtfzy2g5",
+      "userId": "u_zee9hm85y",
+      "songId": "s2",
+      "playedAt": "2026-07-14T07:45:43.083Z"
+    },
+    {
+      "id": "h_7a2rgc54q",
+      "userId": "u_zee9hm85y",
+      "songId": "s2",
+      "playedAt": "2026-07-14T07:45:43.151Z"
+    },
+    {
+      "id": "h_rnduzzjy8",
+      "userId": "u_zee9hm85y",
+      "songId": "s2",
+      "playedAt": "2026-07-14T07:45:44.585Z"
+    },
+    {
+      "id": "h_6mpq3s3wv",
+      "userId": "u_zee9hm85y",
+      "songId": "s2",
+      "playedAt": "2026-07-14T07:45:44.653Z"
+    },
+    {
+      "id": "h_ry87seu1l",
+      "userId": "u_zee9hm85y",
+      "songId": "s5",
+      "playedAt": "2026-07-14T08:07:31.800Z"
+    },
+    {
+      "id": "h_7jegkm3wi",
+      "userId": "u_zee9hm85y",
+      "songId": "s5",
+      "playedAt": "2026-07-14T08:07:31.868Z"
+    },
+    {
+      "id": "h_81pcfd1ww",
+      "userId": "u_zee9hm85y",
+      "songId": "s1",
+      "playedAt": "2026-07-14T08:07:39.739Z"
+    },
+    {
+      "id": "h_r66crhzcr",
+      "userId": "u_zee9hm85y",
+      "songId": "s5",
+      "playedAt": "2026-07-14T08:11:18.253Z"
+    },
+    {
+      "id": "h_vtajxsge1",
+      "userId": "u_zee9hm85y",
+      "songId": "s5",
+      "playedAt": "2026-07-14T08:11:18.329Z"
+    },
+    {
+      "id": "h_e7utck697",
+      "userId": "u_zee9hm85y",
+      "songId": "s1",
+      "playedAt": "2026-07-14T08:19:44.177Z"
+    },
+    {
+      "id": "h_og2h1ytvf",
+      "userId": "u_zee9hm85y",
+      "songId": "s1",
+      "playedAt": "2026-07-14T08:19:44.226Z"
+    },
+    {
+      "id": "h_190r5pgjf",
+      "userId": "u_zee9hm85y",
+      "songId": "s2",
+      "playedAt": "2026-07-14T08:19:47.680Z"
+    },
+    {
+      "id": "h_rbwyhxfxm",
+      "userId": "u_zee9hm85y",
+      "songId": "s2",
+      "playedAt": "2026-07-14T08:19:47.747Z"
+    },
+    {
+      "id": "h_lrjel111t",
+      "userId": "u_zee9hm85y",
+      "songId": "s3",
+      "playedAt": "2026-07-14T08:19:49.380Z"
+    },
+    {
+      "id": "h_yv9p778vs",
+      "userId": "u_zee9hm85y",
+      "songId": "s3",
+      "playedAt": "2026-07-14T08:19:49.450Z"
+    },
+    {
+      "id": "h_863mypaah",
+      "userId": "u_zee9hm85y",
+      "songId": "s4",
+      "playedAt": "2026-07-14T08:19:50.952Z"
+    },
+    {
+      "id": "h_7qld0uym4",
+      "userId": "u_zee9hm85y",
+      "songId": "s4",
+      "playedAt": "2026-07-14T08:19:50.960Z"
+    },
+    {
+      "id": "h_auqmlsm4x",
+      "userId": "u_zee9hm85y",
+      "songId": "s5",
+      "playedAt": "2026-07-14T08:19:52.519Z"
+    },
+    {
+      "id": "h_yhe63bbtp",
+      "userId": "u_zee9hm85y",
+      "songId": "s5",
+      "playedAt": "2026-07-14T08:19:52.547Z"
+    },
+    {
+      "id": "h_5mcf3jes8",
+      "userId": "u_zee9hm85y",
+      "songId": "s5",
+      "playedAt": "2026-07-14T08:19:53.362Z"
+    },
+    {
+      "id": "h_yn28w8423",
+      "userId": "u_zee9hm85y",
+      "songId": "s5",
+      "playedAt": "2026-07-14T08:19:53.368Z"
+    },
+    {
+      "id": "h_6erkwx56k",
+      "userId": "u_zee9hm85y",
+      "songId": "s5",
+      "playedAt": "2026-07-14T08:19:55.079Z"
+    },
+    {
+      "id": "h_q9qvwfhfe",
+      "userId": "u_zee9hm85y",
+      "songId": "s5",
+      "playedAt": "2026-07-14T08:19:55.083Z"
+    },
+    {
+      "id": "h_reh5szmws",
+      "userId": "u_zee9hm85y",
+      "songId": "s5",
+      "playedAt": "2026-07-14T08:28:30.018Z"
+    },
+    {
+      "id": "h_688tjaf6x",
+      "userId": "u_zee9hm85y",
+      "songId": "s5",
+      "playedAt": "2026-07-14T08:28:30.077Z"
+    },
+    {
+      "id": "h_5ybclz16a",
+      "userId": "u_zee9hm85y",
+      "songId": "s5",
+      "playedAt": "2026-07-14T08:35:30.365Z"
+    },
+    {
+      "id": "h_s4a9kcyor",
+      "userId": "u_zee9hm85y",
+      "songId": "s5",
+      "playedAt": "2026-07-14T08:35:30.421Z"
+    },
+    {
+      "id": "h_b7imrckry",
+      "userId": "u_zee9hm85y",
+      "songId": "s5",
+      "playedAt": "2026-07-14T08:35:31.277Z"
+    },
+    {
+      "id": "h_6ck3f3b2u",
+      "userId": "u_zee9hm85y",
+      "songId": "s5",
+      "playedAt": "2026-07-14T08:35:31.294Z"
+    },
+    {
+      "id": "h_bs570sxso",
+      "userId": "u_zee9hm85y",
+      "songId": "s4",
+      "playedAt": "2026-07-14T08:35:37.720Z"
+    },
+    {
+      "id": "h_ln0gvw7x0",
+      "userId": "u_zee9hm85y",
+      "songId": "s4",
+      "playedAt": "2026-07-14T08:35:37.724Z"
+    },
+    {
+      "id": "h_r85g4gxnj",
+      "userId": "u_zee9hm85y",
+      "songId": "s4",
+      "playedAt": "2026-07-14T08:35:39.800Z"
+    },
+    {
+      "id": "h_wlb3lvuyf",
+      "userId": "u_zee9hm85y",
+      "songId": "s4",
+      "playedAt": "2026-07-14T08:35:39.802Z"
+    },
+    {
+      "id": "h_3uu1ziqgk",
+      "userId": "u_zee9hm85y",
+      "songId": "s2",
+      "playedAt": "2026-07-14T08:35:49.004Z"
+    },
+    {
+      "id": "h_wxmyhxeq8",
+      "userId": "u_zee9hm85y",
+      "songId": "s2",
+      "playedAt": "2026-07-14T08:35:49.045Z"
+    },
+    {
+      "id": "h_1nud2jgiq",
+      "userId": "u_zee9hm85y",
+      "songId": "s1",
+      "playedAt": "2026-07-14T08:36:01.056Z"
+    },
+    {
+      "id": "h_djtmyskr5",
+      "userId": "u_zee9hm85y",
+      "songId": "s1",
+      "playedAt": "2026-07-14T08:36:01.084Z"
+    },
+    {
+      "id": "h_fau0dhr9x",
+      "userId": "u_zee9hm85y",
+      "songId": "s3",
+      "playedAt": "2026-07-14T08:36:11.498Z"
+    },
+    {
+      "id": "h_u6aouagpt",
+      "userId": "u_zee9hm85y",
+      "songId": "s3",
+      "playedAt": "2026-07-14T08:36:11.502Z"
+    },
+    {
+      "id": "h_4was7yqhi",
+      "userId": "u_zee9hm85y",
+      "songId": "s2",
+      "playedAt": "2026-07-14T08:36:15.129Z"
+    },
+    {
+      "id": "h_77rs2k6p2",
+      "userId": "u_zee9hm85y",
+      "songId": "s2",
+      "playedAt": "2026-07-14T08:36:15.133Z"
+    },
+    {
+      "id": "h_imbbxo30v",
+      "userId": "u_zee9hm85y",
+      "songId": "s1",
+      "playedAt": "2026-07-14T08:36:16.753Z"
+    },
+    {
+      "id": "h_joe5xcki3",
+      "userId": "u_zee9hm85y",
+      "songId": "s1",
+      "playedAt": "2026-07-14T08:36:16.794Z"
+    },
+    {
+      "id": "h_iospr86ts",
+      "userId": "u_zee9hm85y",
+      "songId": "s1",
+      "playedAt": "2026-07-14T08:36:20.175Z"
+    },
+    {
+      "id": "h_78e9vji9x",
+      "userId": "u_zee9hm85y",
+      "songId": "s1",
+      "playedAt": "2026-07-14T08:36:20.178Z"
+    },
+    {
+      "id": "h_tsmak16sr",
+      "userId": "u_zee9hm85y",
+      "songId": "s1",
+      "playedAt": "2026-07-14T08:36:21.963Z"
+    },
+    {
+      "id": "h_4w6oabx7k",
+      "userId": "u_zee9hm85y",
+      "songId": "s1",
+      "playedAt": "2026-07-14T08:36:21.966Z"
+    },
+    {
+      "id": "h_zc8whkl3x",
+      "userId": "u_zee9hm85y",
+      "songId": "s2",
+      "playedAt": "2026-07-14T08:36:23.123Z"
+    },
+    {
+      "id": "h_r16q5ku3l",
+      "userId": "u_zee9hm85y",
+      "songId": "s2",
+      "playedAt": "2026-07-14T08:36:23.155Z"
+    }
+  ],
+  "likedSongs": [
+    {
+      "id": "l_0o8c592l2",
+      "userId": "u_zee9hm85y",
+      "songId": "s3",
+      "likedAt": "2026-07-14T08:10:08.488Z"
+    },
+    {
+      "id": "l_l2aj0e21f",
+      "userId": "u_zee9hm85y",
+      "songId": "s5",
+      "likedAt": "2026-07-14T08:28:33.405Z"
+    }
+  ],
+  "artists": [
+    {
+      "id": "a1",
+      "name": "Neon Wanderer",
+      "genre": "Synthwave",
+      "avatarUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=150&auto=format&fit=crop&q=80",
+      "bio": "Pioneering retro-future soundscapes directly from the grid.",
+      "monthlyListeners": 425000
+    },
+    {
+      "id": "a2",
+      "name": "Coffee & Rain",
+      "genre": "Lo-Fi Chill",
+      "avatarUrl": "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=150&auto=format&fit=crop&q=80",
+      "bio": "Warm vinyl crackles and mellow guitar loops for studying and cozy afternoons.",
+      "monthlyListeners": 890000
+    },
+    {
+      "id": "a3",
+      "name": "Elena Rivers",
+      "genre": "Acoustic / Folk",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "bio": "Soul-stirring vocals and heartfelt acoustic strings from the Pacific Northwest.",
+      "monthlyListeners": 180000
+    }
+  ],
+  "genres": [
+    {
+      "id": "1",
+      "name": "Synthwave",
+      "color": "from-pink-600 to-indigo-600"
+    },
+    {
+      "id": "2",
+      "name": "Lo-Fi Chill",
+      "color": "from-teal-600 to-blue-600"
+    },
+    {
+      "id": "3",
+      "name": "Acoustic / Folk",
+      "color": "from-amber-600 to-orange-600"
+    },
+    {
+      "id": "4",
+      "name": "Cinematic Ambient",
+      "color": "from-cyan-600 to-purple-600"
+    },
+    {
+      "id": "5",
+      "name": "Cyberpunk Electro",
+      "color": "from-purple-700 to-rose-700"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n1",
+      "userId": "u1",
+      "title": "Welcome to Melodia!",
+      "message": "Experience premium glassmorphic audio streaming powered by AI-driven smart recommendations.",
+      "type": "ai",
+      "read": false,
+      "createdAt": "2026-07-14T06:48:52.592Z"
+    },
+    {
+      "id": "n_shw02god9",
+      "userId": "u_zee9hm85y",
+      "title": "Welcome to Melodia!",
+      "message": "Hey aditya, welcome to your AI cloud music space! Try generating a smart playlist in Library.",
+      "type": "success",
+      "read": true,
+      "createdAt": "2026-07-14T07:00:01.427Z"
+    },
+    {
+      "id": "n_0ppfbqsst",
+      "userId": "u_zee9hm85y",
+      "title": "New AI Playlist Curation",
+      "message": "Curator synthesized a bespoke smart playlist based on your affinity to \"Sunset Grid\".",
+      "type": "ai",
+      "read": true,
+      "createdAt": "2026-07-14T07:00:39.624Z"
+    },
+    {
+      "id": "n_y53lobhe0",
+      "userId": "u_zee9hm85y",
+      "title": "New AI Playlist Curation",
+      "message": "Curator synthesized a bespoke smart playlist based on your affinity to \"Midnight Arcade\".",
+      "type": "ai",
+      "read": true,
+      "createdAt": "2026-07-14T07:02:00.658Z"
+    },
+    {
+      "id": "n_4ttb7amhb",
+      "userId": "u_zee9hm85y",
+      "title": "New AI Playlist Curation",
+      "message": "Curator synthesized a bespoke smart playlist based on your affinity to \"Midnight Arcade\".",
+      "type": "ai",
+      "read": true,
+      "createdAt": "2026-07-14T07:20:43.538Z"
+    },
+    {
+      "id": "n_1brif35v8",
+      "userId": "u_zee9hm85y",
+      "title": "New AI Playlist Curation",
+      "message": "Curator synthesized a bespoke smart playlist based on your affinity to \"Midnight Arcade\".",
+      "type": "ai",
+      "read": true,
+      "createdAt": "2026-07-14T07:45:23.950Z"
+    },
+    {
+      "id": "n_eplyupirl",
+      "userId": "u_zee9hm85y",
+      "title": "New AI Playlist Curation",
+      "message": "Curator synthesized a bespoke smart playlist based on your affinity to \"Sunset Grid\".",
+      "type": "ai",
+      "read": true,
+      "createdAt": "2026-07-14T08:09:02.059Z"
+    }
+  ]
+}
